@@ -55,4 +55,20 @@ u
 
 **Test Behavior, not Implmentation**
 
+## Section 3: Course App and Next.js Data Fetching Strategies
+
+### 16. Next.js Data Fetching Strategies
+
+TLA (Three Letter Acronym) alert!!
+
+[NextJs Data Fetching Overview](https://nextjs.org/docs/basic-features/data-fetching/overview)
+
+- No data
+- SSG: Static-Site Generation
+- SSR: Server-Side Rendering
+  - better SEO (Search Engine Optimization)
+- ISR: Incremental Static Regeneration
+- CSR: Client-Side Rendering
+  - SWR: Stale-While-Revalidate
+
 </details>
