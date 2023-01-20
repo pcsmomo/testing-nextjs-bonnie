@@ -40,4 +40,19 @@ u
 # update the snapshot. Initially the snapshot fails
 ```
 
+## Section 2: Testing Definitions and Philosophy
+
+### 8. Types of Tests
+
+- Unit test
+- Integration Testing
+  - Parent and child components
+  - API interacting with a database
+- End-to-End (e2e) Testing
+  - user flow from beginning to end
+
+### 9. What to Test
+
+**Test Behavior, not Implmentation**
+
 </details>
