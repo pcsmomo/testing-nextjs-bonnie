@@ -32,4 +32,12 @@ npx create-next-app@latest --example with-jest 01-first-next-test
 - [NextJs quick start-2](https://nextjs.org/docs/testing#quickstart-2)
 - [NextJs with Jest template](https://nextjs.org/docs/testing#setting-up-jest-with-the-rust-compiler)
 
+### 4. First Next.js Test
+
+```sh
+npm test
+u
+# update the snapshot. Initially the snapshot fails
+```
+
 </details>
