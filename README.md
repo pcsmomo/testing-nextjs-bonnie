@@ -6,6 +6,8 @@ Testing Next.js Apps with Jest, Testing Library and Cypress by Bonnie Schulkin
 
 - 01-first-next-test
   - 01-instoruction
+- 03-base-concert-venue
+  - open the project folder in vscode to avoid import warning with `@/...`
 
 # Details
 
@@ -83,5 +85,16 @@ openssl rand -base64 32
 
 npm run dev
 ```
+
+### 19. Course App Code Notes
+
+- @ referes to top directory in imports
+  - examples: `import Home from "@/pages/index.tsx`
+- Faily standard for Next.js
+  - alias comes with `with-jest` tesmplate
+  - on ly for pages and components
+- configured for all top level dirs, in both:
+  - jest (jest.config.js), and
+  - the app (in tsconfig.json)
 
 </details>
