@@ -8,6 +8,8 @@ Testing Next.js Apps with Jest, Testing Library and Cypress by Bonnie Schulkin
   - 01-instoruction
 - 04-base-concert-venue
   - open the project folder in vscode to avoid import warning with `@/...`
+  - Section 4: UI Testing
+    - `04-base-concert-venue/__tests__/ui`
 
 # Details
 
