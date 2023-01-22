@@ -118,4 +118,13 @@ Test Files Location
 - [The Merits of Mocking By Kent C.Dodds](https://kentcdodds.com/blog/the-merits-of-mocking)
 - [Avoid Nesting when you're Testing By Kent C.Dodds](https://kentcdodds.com/blog/avoid-nesting-when-youre-testing)
 
+### 28. Setting up MSW with Next.js
+
+```sh
+npm install msw --save-dev
+mkdir __tests__/__mocks__/msw
+touch __tests__/__mocks__/msw/handlers.ts
+touch __tests__/__mocks__/msw/server.ts
+```
+
 </details>
