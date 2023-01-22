@@ -112,4 +112,10 @@ Test Files Location
 - Special setup required to avoid errors:
   - https://nextjs.org/docs/api-reference/next.config.js/custom-page-extensions#including-non-page-files-in-the-pages-directory
 
+### 22. SIDE NOTE: Why add to the existing test? Why not create a new test?
+
+- [Write fewer, longer tests By Kent C.Dodds](https://kentcdodds.com/blog/write-fewer-longer-tests)
+- [The Merits of Mocking By Kent C.Dodds](https://kentcdodds.com/blog/the-merits-of-mocking)
+- [Avoid Nesting when you're Testing By Kent C.Dodds](https://kentcdodds.com/blog/avoid-nesting-when-youre-testing)
+
 </details>
