@@ -97,4 +97,17 @@ npm run dev
   - jest (jest.config.js), and
   - the app (in tsconfig.json)
 
+> open the project folder in vscode to avoid import warning with `@/...`
+
+## Section 4: UI Testing
+
+### 20. Introduction and Technologies
+
+Test Files Location
+
+- Cannot "co-locate" test files in `pages` directory
+  - ugly errors at build time
+- Special setup required to avoid errors:
+  - https://nextjs.org/docs/api-reference/next.config.js/custom-page-extensions#including-non-page-files-in-the-pages-directory
+
 </details>
