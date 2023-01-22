@@ -71,4 +71,17 @@ TLA (Three Letter Acronym) alert!!
 - CSR: Client-Side Rendering
   - SWR: Stale-While-Revalidate
 
+### 18. Installing the Course App
+
+```sh
+npm install
+cp .env.development.local_template .env.development.local
+cp .env.local_template .env.local
+
+openssl rand -base64 32
+# Copy them to .env.local
+
+npm run dev
+```
+
 </details>
