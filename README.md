@@ -6,10 +6,11 @@ Testing Next.js Apps with Jest, Testing Library and Cypress by Bonnie Schulkin
 
 - 01-first-next-test
   - 01-instoruction
-- 04-base-concert-venue
+- concert-venue
   - open the project folder in vscode to avoid import warning with `@/...`
   - Section 4: UI Testing
-    - `04-base-concert-venue/__tests__/ui`
+    - `concert-venue/__tests__/ui`
+    - `concert-venue/__tests__/__mocks__/msw`
 
 # Details
 
@@ -126,5 +127,31 @@ mkdir __tests__/__mocks__/msw
 touch __tests__/__mocks__/msw/handlers.ts
 touch __tests__/__mocks__/msw/server.ts
 ```
+
+## Section 5: Setting up a Test Database
+
+### 36. WINDOWS AND LINUX USERS: adjustments to npm scripts
+
+1. Windows Command Shell and Powershell users:
+
+Use set instead of export for environment variables.
+
+Whenever an npm script starts with export, you will want to use set instead. For example:
+
+Mac and Linux command (what's shown in the course):
+"start:test": "export NODE_ENV=\"test\" && next start"
+
+Windows Command Shell and Powershell command:
+"start:test": "set NODE_ENV=\"test\" && next start"
+
+2. Mac and Linux users:
+
+The db:reset npm script needs to start with sh instead of source and specify the directory.
+
+Mac and command (what's shown in the course):
+"db:reset": "source scripts/reset-db.sh"
+
+Linux, Windows Command Shell and Windows Powershell command:
+"db:reset": "sh ./scripts/reset-db.sh"
 
 </details>
