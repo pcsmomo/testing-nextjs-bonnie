@@ -154,4 +154,12 @@ Mac and command (what's shown in the course):
 Linux, Windows Command Shell and Windows Powershell command:
 "db:reset": "sh ./scripts/reset-db.sh"
 
+### 39. Environment Variables
+
+- By default environment variables are only available in the Node.js environment, meaning they won't be exposed to the browser.
+- In order to expose a variable to the browser, check the link
+- [NextJs Environment Variables](https://nextjs.org/docs/basic-features/environment-variables#test-environment-variables)
+- There is a small difference between test environment, and both development and production that you need to bear in mind: .env.local won't be loaded, as you expect tests to produce the same results for everyone.
+- How To Read and Set Environmental and Shell Variables on Linux[https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-linux]
+
 </details>
