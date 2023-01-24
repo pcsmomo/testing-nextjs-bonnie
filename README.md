@@ -162,4 +162,15 @@ Linux, Windows Command Shell and Windows Powershell command:
 - There is a small difference between test environment, and both development and production that you need to bear in mind: .env.local won't be loaded, as you expect tests to produce the same results for everyone.
 - How To Read and Set Environmental and Shell Variables on Linux[https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-linux]
 
+## Section 6: Testing Next.js Routes (using Cypress)
+
+### 44. Introducing testing Next.js Routes and Cypress
+
+- next-page-tester
+  - https://github.com/next-page-tester/next-page-tester
+  - relies on Next.js internals
+  - can be a blocker to upgrades (like Enzyme / React)
+- Cypress
+  - https://www.cypress.io/
+
 </details>
