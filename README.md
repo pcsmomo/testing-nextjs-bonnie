@@ -215,4 +215,6 @@ npm install -D start-server-and-test
 npm run cypress:build
 ```
 
+> and when click 'E2E Testing', cypress will create templates under `/cypress`
+
 </details>
