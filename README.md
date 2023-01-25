@@ -217,4 +217,22 @@ npm run cypress:build
 
 > and when click 'E2E Testing', cypress will create templates under `/cypress`
 
+### 53. First Cypress Test: Static Route
+
+- assertions: https://docs.cypress.io/guides/references/assertions
+- finding elements: https://testing-library.com/docs/cypress-testing-library/intro/
+- cy.get(): https://docs.cypress.io/api/commands/get
+
+```sh
+npm install -D @testing-library/cypress
+```
+
+```sh
+# if already built
+npm run cypress:start
+
+# if not built yet
+npm run cypress:build
+```
+
 </details>
