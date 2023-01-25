@@ -235,4 +235,14 @@ npm run cypress:start
 npm run cypress:build
 ```
 
+### 56. Resetting the Database in Cypress
+
+```sh
+npm run cypress:start
+# WARNING: DB reset attempted outside of test environment!
+
+# this has to be added
+`const safeToReset = process.env.NODE_ENV === "test" || process.env.CYPRESS;`
+```
+
 </details>
