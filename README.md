@@ -173,4 +173,16 @@ Linux, Windows Command Shell and Windows Powershell command:
 - Cypress
   - https://www.cypress.io/
 
+### 48. Setting up Next.js for Cypress
+
+[NextJs with Cypress](https://nextjs.org/docs/testing#running-your-cypress-tests)
+
+```sh
+npm run build
+npm run start
+
+# in another terminal
+npm run cypress
+```
+
 </details>
