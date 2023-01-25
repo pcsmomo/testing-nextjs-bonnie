@@ -185,4 +185,34 @@ npm run start
 npm run cypress
 ```
 
+### 49. SIDE NOTE: Running Continuous Integration Tests against Preview Deploy
+
+[SIDE NOTE: Running Continuous Integration Tests against Preview Deploy](https://www.udemy.com/course/nextjs-testing/learn/lecture/32251676#overview)
+
+### 50. Setting up Cypress
+
+```sh
+npm install -D cypress
+npm install -D env-cmd
+
+# add the script to package.json
+npm run cypress:open
+
+# this is not the final command
+# Go down!
+```
+
+```sh
+# Not necessary but just to see!
+npm install -g cypress
+cypress open
+```
+
+```sh
+npm install -D start-server-and-test
+
+# add the script to package.json
+npm run cypress:build
+```
+
 </details>
