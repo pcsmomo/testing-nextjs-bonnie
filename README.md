@@ -245,4 +245,24 @@ npm run cypress:start
 `const safeToReset = process.env.NODE_ENV === "test" || process.env.CYPRESS;`
 ```
 
+### 65. First ISR Cache Test
+
+We want to test the static page from the server.\
+
+1. So we will test the built version
+2. and disable those javascript bundle files from the html file
+
+[Dr. Gleb Bahmutov, PhD - Blog](https://glebbahmutov.com/blog/ssr-e2e/#removing-application-bundle)
+
+#### VSCODE TIP for formatting
+
+```sh
+curl http://localhost:3000/shows > shows_page.out
+```
+
+1. change language mode
+   - Command Palette (Shift + Comm + P) -> Change Language Mode (Comm + K + M)
+2. Format the document
+   - Format Document (Shift + Option + F)
+
 </details>
