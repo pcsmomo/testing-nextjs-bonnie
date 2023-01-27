@@ -1,3 +1,5 @@
+/// <reference types="Cypress" />
+
 it("skips client-side bundle, confirming data from ISR cache", () => {
   // reference: https://glebbahmutov.com/blog/ssr-e2e/#removing-application-bundle
   cy.request("/shows")

@@ -1,3 +1,5 @@
+/// <reference types="Cypress" />
+
 import { generateNewBand } from "../../../__tests__/__mocks__/fakeData/newBand";
 import { generateRandomId } from "../../../lib/features/reservations/utils";
 // import { generateNewBand } from "@/__tests__/__mocks__/fakeData/newBand";
