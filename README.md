@@ -265,4 +265,9 @@ curl http://localhost:3000/shows > shows_page.out
 2. Format the document
    - Format Document (Shift + Option + F)
 
+### 66. SIDE NOTE: Next.js scripts
+
+- [Next.js - output generated inside the `.next` folder](https://nextjs.org/docs/deployment#nextjs-build-api)
+- [Next.js + Webpack bundle analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
+
 </details>
