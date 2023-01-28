@@ -270,4 +270,8 @@ curl http://localhost:3000/shows > shows_page.out
 - [Next.js - output generated inside the `.next` folder](https://nextjs.org/docs/deployment#nextjs-build-api)
 - [Next.js + Webpack bundle analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
 
+### 71. ISR Revalidation Test
+
+[Cypress Request - Method, URL, and Body](https://docs.cypress.io/api/commands/request#Method-URL-and-Body)
+
 </details>
