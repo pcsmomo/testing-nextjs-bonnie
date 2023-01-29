@@ -274,4 +274,8 @@ curl http://localhost:3000/shows > shows_page.out
 
 [Cypress Request - Method, URL, and Body](https://docs.cypress.io/api/commands/request#Method-URL-and-Body)
 
+### 76. Testing Revalidate on Interval
+
+[Cypress Clock](https://docs.cypress.io/api/commands/clock)
+
 </details>
