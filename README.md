@@ -286,4 +286,15 @@ curl http://localhost:3000/shows > shows_page.out
 - [NextAuth - Configuration - JWT callback](https://next-auth.js.org/configuration/callbacks#jwt-callback)
 - [NextAuth - Configuration - Option (session)](https://next-auth.js.org/v3/configuration/options#session)
 
+### 80. Auth Wrapper in Course App
+
+- success flow
+- failure flow
+- protected page
+- sign in programmatically
+
+### 81. Adding Sign-In Details to Cypress
+
+[Cypress - Environment variable](https://docs.cypress.io/guides/guides/environment-variables#Option-3-CYPRESS_)
+
 </details>
