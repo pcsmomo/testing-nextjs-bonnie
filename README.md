@@ -278,4 +278,12 @@ curl http://localhost:3000/shows > shows_page.out
 
 [Cypress Clock](https://docs.cypress.io/api/commands/clock)
 
+## Section 8: Testing Authentication
+
+### 79. Introduction to Testing Authentication
+
+- [npm next-auth](https://www.npmjs.com/package/next-auth)
+- [NextAuth - Configuration - JWT callback](https://next-auth.js.org/configuration/callbacks#jwt-callback)
+- [NextAuth - Configuration - Option (session)](https://next-auth.js.org/v3/configuration/options#session)
+
 </details>
