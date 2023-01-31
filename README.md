@@ -305,4 +305,8 @@ curl http://localhost:3000/shows > shows_page.out
 
 [Cypress - fixture](https://docs.cypress.io/api/commands/fixture)
 
+### 86. Authenticating Programmatically
+
+[Cypress - commands](https://docs.cypress.io/api/cypress-api/custom-commands)
+
 </details>
