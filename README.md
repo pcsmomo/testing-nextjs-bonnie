@@ -297,4 +297,8 @@ curl http://localhost:3000/shows > shows_page.out
 
 [Cypress - Environment variable](https://docs.cypress.io/guides/guides/environment-variables#Option-3-CYPRESS_)
 
+### 83. SIDE NOTE: Why is this test so dang long?
+
+[Split a very long Cypress test into shorter ones using App Actions](https://www.cypress.io/blog/2019/10/29/split-a-very-long-cypress-test-into-shorter-ones-using-app-actions/#header)
+
 </details>
