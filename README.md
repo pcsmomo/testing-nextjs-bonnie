@@ -301,4 +301,8 @@ curl http://localhost:3000/shows > shows_page.out
 
 [Split a very long Cypress test into shorter ones using App Actions](https://www.cypress.io/blog/2019/10/29/split-a-very-long-cypress-test-into-shorter-ones-using-app-actions/#header)
 
+### 85. Parametrizing Protected Page Tests
+
+[Cypress - fixture](https://docs.cypress.io/api/commands/fixture)
+
 </details>
