@@ -309,4 +309,19 @@ curl http://localhost:3000/shows > shows_page.out
 
 [Cypress - commands](https://docs.cypress.io/api/cypress-api/custom-commands)
 
+### 87. SIDE NOTE: Resources for Authenticating Programmatically
+
+- https://github.com/cypress-io/cypress-example-recipes#logging-in-recipes
+- https://docs.cypress.io/plugins/directory#Authentication
+- https://docs.cypress.io/guides/testing-strategies/auth0-authentication#What-you-ll-learn
+  - (and other “testing strategies” in this section of the Cypress docs)
+- https://next-auth.js.org/tutorials/testing-with-cypress
+- https://github.com/lirantal/cypress-social-logins
+
+### 88. Code Quiz! Authenticating Programmatically
+
+```sh
+npm run cypress:run
+```
+
 </details>
