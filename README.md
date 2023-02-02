@@ -381,4 +381,8 @@ global.TextDecoder = TextDecoder;
 watchPathIgnorePatterns: ["<rootDir>/__tests__/__mocks__/db/.*\\.json"],
 ```
 
+### 95. Testing a Route with a URL Param
+
+[next-test-api-route-handler - paramspatcher](https://github.com/Xunnamius/next-test-api-route-handler#paramspatcher)
+
 </details>
