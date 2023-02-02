@@ -355,4 +355,10 @@ add "cypress.config.ts" into "exclude" array in `tsconfig.json`
 
 https://www.reddit.com/r/typescript/comments/x59poq/comment/izkfzeg/?utm_source=share&utm_medium=web2x&context=3
 
+### 93. First API Test
+
+```sh
+npm install --save-dev next-test-api-route-handler
+```
+
 </details>
