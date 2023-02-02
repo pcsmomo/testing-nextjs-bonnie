@@ -11,6 +11,15 @@ Testing Next.js Apps with Jest, Testing Library and Cypress by Bonnie Schulkin
   - Section 4: UI Testing
     - `concert-venue/__tests__/ui`
     - `concert-venue/__tests__/__mocks__/msw`
+  - Section 6: Testing Next.js Routes (using Cypress)
+    - `concert-venue/cypress/routes`
+  - Section 7: Testing ISR and Data Updates
+    - `concert-venue/cypress/isr`
+  - `concert-venue/cypress/swr-revalidation`
+  - Section 8: Testing Authentication
+    - `concert-venue/cypress/auth`
+    - `concert-venue/cypress/user-page`
+    - `concert-venue/cypress/tickets`
 
 # Details
 
@@ -323,5 +332,21 @@ curl http://localhost:3000/shows > shows_page.out
 ```sh
 npm run cypress:run
 ```
+
+## Section 9: Testing Next.js APIs
+
+### 92. Introduction to API Tests
+
+- Option #1
+  - `HTTP.IncomingMessage` for `req`
+  - use `jest mocks` to spy on `res.json` and `res.status`
+- Options #2
+  - create `req` and `res` with `node-mocks-http`
+  - assert on `res` after handler function
+- Options #3
+  - `next-test-api-route-handler`
+  - feels more like API call
+  - uses Next.js internals
+    - tests on update
 
 </details>
