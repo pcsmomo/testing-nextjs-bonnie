@@ -361,4 +361,24 @@ https://www.reddit.com/r/typescript/comments/x59poq/comment/izkfzeg/?utm_source=
 npm install --save-dev next-test-api-route-handler
 ```
 
+### 94. Fixing Test Errors: Polyfill, resetDB, ignore DB directory in watchlist
+
+```js
+// jest.setup.js
+
+// polyfill necessary for jsdom test environment
+// reference: https://stackoverflow.com/a/68468204
+import { TextDecoder, TextEncoder } from "util";
+
+global.TextEncoder = TextEncoder;
+global.TextDecoder = TextDecoder;
+```
+
+#### prevent infinite loop with `jest --watch` and `resetDB()`
+
+```js
+// jest.conifig.js
+watchPathIgnorePatterns: ["<rootDir>/__tests__/__mocks__/db/.*\\.json"],
+```
+
 </details>
