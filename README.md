@@ -349,4 +349,10 @@ npm run cypress:run
   - uses Next.js internals
     - tests on update
 
+#### To fix `Property 'toBeInTheDocument' does not exist on type 'Assertion'.ts(2339)` error
+
+add "cypress.config.ts" into "exclude" array in `tsconfig.json`
+
+https://www.reddit.com/r/typescript/comments/x59poq/comment/izkfzeg/?utm_source=share&utm_medium=web2x&context=3
+
 </details>
