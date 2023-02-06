@@ -385,4 +385,25 @@ watchPathIgnorePatterns: ["<rootDir>/__tests__/__mocks__/db/.*\\.json"],
 
 [next-test-api-route-handler - paramspatcher](https://github.com/Xunnamius/next-test-api-route-handler#paramspatcher)
 
+### 102. Fixing Issues with Parallel Tests using Shared Database
+
+```sh
+npm run test:ci
+```
+
+```json
+// jest.config.js
+maxWorkers: 1, // it will run test serially to avoid database transaction conflicts
+```
+
+> However, in my case, there was no conflict for a few attempts
+
+### 103. SIDE NOTE: Example of Using Multiple jest.config.js Files
+
+- Setting `maxWorkers` to 1 in `jest.config.js` makes the tests run serially, which causes them to be slower than when running in parallel. This is necessary if the tests are all hitting the same test database (see the previous lecture for explanation); however it is not necessary for not using the database.
+
+- The Ten-Cent Teacakes site has an example of using different different `jest.config.js` files for different test directories. The npm scripts (for ui tests and api tests) specify the config file for each directory of tests.
+
+[npm test setup in Ten-Cent Teacakes project](https://github.com/bonnie/ten-cent-teacakes/blob/de43071a8ca867bc7352d7a1dba15074a4cb59f0/package.json#L15-L17)
+
 </details>
