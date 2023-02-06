@@ -4,6 +4,7 @@ import { validateToken } from "@/lib/auth/utils";
 import reservationHandler from "@/pages/api/reservations/[reservationId]";
 import userReservationsHandler from "@/pages/api/users/[userId]/reservations";
 
+// this mock will be hoisted to the top of the file
 jest.mock("@/lib/auth/utils");
 const mockValidateToken = validateToken as jest.Mock;
 
